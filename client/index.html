@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>wizard</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="game-wrapper">
+        <div id="board"></div>
+        <div id="info"></div>
+        <div id="chat">
+            <h3>Chat</h3>
+            <ul>
+                <li>start of chat</li>
+            </ul>
+            <form id="chat-form">
+                <label for="chat-input">Chat: </label><input id="chat-input"/>
+                <button id="chat-send">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="src/client.js"></script>
+</body>
+</html>

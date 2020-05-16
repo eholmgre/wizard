@@ -1,0 +1,16 @@
+
+#chat {
+    box-sizing: border-box;
+    border: 3px solid crimson;
+    background: antiquewhite;
+    padding: 0 2em 1em;
+    color: black;
+}
+
+#chat ul {
+    list-style: square;
+    border: 1px solid darkgray;
+    box-shadow: 5px 5px 3px goldenrod;
+    height: 100px;
+    overflow-y: scroll;
+}
